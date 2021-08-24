@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"/>
+  </head>
+  <body>
+    <header
+      class="w-full flex justify-between text-white items-center bg-blue-300">
+      <h1 class="text-2xl font-bold pl-4">Logo</h1>
+      <ul class="flex font-bold">
+        <li class="py-4 transition duration-300 hover:bg-white hover:text-blue-200 px-8 cursor pointer">Home</li>
+        <li class="py-4 transition duration-300 hover:bg-white hover:text-blue-200 px-8 cursor pointer">About</li>
+        <li class="py-4 transition duration-300 hover:bg-white hover:text-blue-200 px-8 cursor pointer">service</li>
+        <li class="py-4 transition duration-300 hover:bg-white hover:text-blue-200 px-8 cursor pointer">Contact</li>
+      </ul>
+      <div class="p-4 md:hidden">
+          <i class="fas fa-bars"></i>
+      </div>
+    </header>
+    <main class="w-full my-4">
+      <div class="container mx-auto">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:gird-cols-3 2xl:grid-cols-4 gap-4">
+              <div class="border-4 border-blue-300 bg-blue-300 bg-opacity-30 h-64 rounded-3xl"></div>
+              <div class="border-4 border-blue-300 bg-blue-300 bg-opacity-30 h-64 rounded-3xl"></div>
+              <div class="border-4 border-blue-300 bg-blue-300 bg-opacity-30 h-64 rounded-3xl"></div>
+              <div class="border-4 border-blue-300 bg-blue-300 bg-opacity-30 h-64 rounded-3xl"></div>
+          </div>
+      </div>
+    </main>
+  </body>
+</html>
